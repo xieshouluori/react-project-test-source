@@ -6,9 +6,15 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "babel-plugin-transform-flow-comments": "^6.22.0",
+    "events": "link:./react-master/packages/events/",
+    "react": "link:./react-master/packages/react/",
+    "react-dom": "link:./react-master/packages/react-dom/",
+    "react-is": "link:./react-master/packages/react-is/",
+    "react-reconciler": "link:./react-master/packages/react-reconciler/",
+    "react-scheduler": "link:./react-master/packages/react-scheduler/",
+    "react-scripts": "3.3.0",
+    "shared": "link:./react-master/packages/shared/"
   },
   "scripts": {
     "start": "react-scripts start",
