@@ -1693,9 +1693,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.npmjs.org/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.4.0"
@@ -3994,7 +3994,6 @@ events@^3.0.0:
 
 "events@link:./react-master/packages/events":
   version "0.0.0"
-  uid ""
 
 eventsource@^1.0.7:
   version "1.0.7"
@@ -8301,8 +8300,12 @@ react-dev-utils@^10.0.0:
     text-table "0.2.0"
 
 "react-dom@link:./react-master/packages/react-dom":
-  version "0.0.0"
-  uid ""
+  version "16.12.0"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.18.0"
 
 react-error-overlay@^6.0.4:
   version "6.0.4"
@@ -8315,16 +8318,18 @@ react-is@^16.8.1, react-is@^16.8.4:
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
 "react-is@link:./react-master/packages/react-is":
-  version "0.0.0"
-  uid ""
+  version "16.12.0"
 
 "react-reconciler@link:./react-master/packages/react-reconciler":
-  version "0.0.0"
-  uid ""
+  version "0.24.0"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.18.0"
 
 "react-scheduler@link:./react-master/packages/react-scheduler":
   version "0.0.0"
-  uid ""
 
 react-scripts@3.3.0:
   version "3.3.0"
@@ -8387,8 +8392,11 @@ react-scripts@3.3.0:
     fsevents "2.1.2"
 
 "react@link:./react-master/packages/react":
-  version "0.0.0"
-  uid ""
+  version "16.12.0"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
@@ -9029,7 +9037,6 @@ shallow-clone@^3.0.0:
 
 "shared@link:./react-master/packages/shared":
   version "0.0.0"
-  uid ""
 
 shebang-command@^1.2.0:
   version "1.2.0"
