@@ -3994,7 +3994,6 @@ events@^3.0.0:
 
 "events@link:./react-master/packages/events":
   version "0.0.0"
-  uid ""
 
 eventsource@^1.0.7:
   version "1.0.7"
@@ -8194,9 +8193,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npmjs.org/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
@@ -8301,8 +8300,12 @@ react-dev-utils@^10.0.0:
     text-table "0.2.0"
 
 "react-dom@link:./react-master/packages/react-dom":
-  version "0.0.0"
-  uid ""
+  version "16.12.0"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.18.0"
 
 react-error-overlay@^6.0.4:
   version "6.0.4"
@@ -8315,16 +8318,18 @@ react-is@^16.8.1, react-is@^16.8.4:
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
 "react-is@link:./react-master/packages/react-is":
-  version "0.0.0"
-  uid ""
+  version "16.12.0"
 
 "react-reconciler@link:./react-master/packages/react-reconciler":
-  version "0.0.0"
-  uid ""
+  version "0.24.0"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.18.0"
 
 "react-scheduler@link:./react-master/packages/react-scheduler":
   version "0.0.0"
-  uid ""
 
 react-scripts@3.3.0:
   version "3.3.0"
@@ -8387,8 +8392,11 @@ react-scripts@3.3.0:
     fsevents "2.1.2"
 
 "react@link:./react-master/packages/react":
-  version "0.0.0"
-  uid ""
+  version "16.12.0"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
@@ -9029,7 +9037,6 @@ shallow-clone@^3.0.0:
 
 "shared@link:./react-master/packages/shared":
   version "0.0.0"
-  uid ""
 
 shebang-command@^1.2.0:
   version "1.2.0"
